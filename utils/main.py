@@ -1,5 +1,5 @@
 import os
-from utils.engine_classes import Engine, SuperJob, HH
+from utils.engine_classes import Engine, HH, SuperJob
 from func import check_search, get_vacancies, get_top_vacancies
 
 
