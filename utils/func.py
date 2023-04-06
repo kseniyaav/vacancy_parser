@@ -1,5 +1,5 @@
-from engine_classes import HH, SuperJob
-from vacancy import HHVacancy, SJVacancy
+from utils.engine_classes import HH, SuperJob
+from utils.vacancy import HHVacancy, SJVacancy
 
 
 def check_search(hh: HH, sj: SuperJob) -> bool:
