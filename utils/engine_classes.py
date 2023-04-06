@@ -4,8 +4,8 @@ from abc import abstractmethod, ABC
 
 import requests
 
-from connector import Connector
-from vacancy import HHVacancy, SJVacancy
+from utils.connector import Connector
+from utils.vacancy import HHVacancy, SJVacancy
 
 
 class Engine(ABC):
